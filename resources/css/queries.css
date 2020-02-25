@@ -1,0 +1,186 @@
+/* 
+@media only screen and (max-width: 480px)
+
+*/
+
+
+
+
+/*small and big tablets: 1023px to 1200 */
+@media only screen and (max-width: 1200px){
+    
+    .hero-text-box {
+
+    width: 100%;
+    padding: 0 2px;
+    }
+    
+    .row { padding: 0 2px;}
+    
+    .section-cities img{
+    
+    height: 160px;
+    width: auto;
+    padding: 0 2px;
+}
+
+
+}
+
+/*ipads: 768px to 1023 */
+@media only screen and (max-width: 1023px){
+    
+    body { font-size: 18px; }
+    section { padding: 60px 0;}
+    
+    .long-copy {
+        width: 80%;
+        margin-left:10%;
+    }
+    
+    .steps-box {  margin-top: 10px;}
+    .steps-box:last-child {  margin-top: 10px;}
+    .works-step { margin-bottom: 40px }
+    .app-screen { width: 50%;}
+    .icon-small {  }
+    
+    .section-cities img{
+    display: inline-block;
+    height: 120px;
+    width: auto;
+    padding: 0 2px;
+}
+
+    
+.main-nav{
+    display: none;
+    }
+    
+
+.social-links{
+    list-style: none;
+    text-align: center;
+    
+    margin: 0;
+    padding: 0;
+}
+}
+
+
+/*small phones to small tablets: 481 to 767px  */
+@media only screen and (max-width: 480px),
+@media only screen and (max-width: 767px){
+    
+    
+    h2{
+        width: 100%;
+        font-size: 29px;
+    }
+    
+    
+    .btn:link,
+.btn:visited{
+     
+font-size: 20px;
+    
+}
+    
+.steps-box:first-child{
+    text-align: center;
+    padding-right: 3%;
+    margin-top: 25px;
+}
+    
+.hero-text-box h1{
+        font-size: 28px;
+   
+ 
+}
+.section-cities img{
+   
+    height: 220px;
+    width: 100%;
+    margin-top: 20px
+}
+    
+    input[type=text],
+input[type=email],
+select,
+textarea{
+    
+    
+    margin-bottom: 15px;
+    }
+
+    
+    .section-plans h2{
+    font-size: 25px;
+      overflow: auto;
+        width: 100%;   
+    }
+    
+    .section-form{
+    width: 80%;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+    
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+    font-size: 19px;
+    margin-right: 10px;
+}
+    
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+    
+ footer{
+    background-color: #121010;
+   padding: 10px;
+    
+}   
+.footer-nav,
+.social-links li{
+    
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+    .col {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    
+    .social-links{
+    
+    list-style: none;
+    float: left;
+}
+    
+    
+    blockquote{
+    padding: 7% 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+    
+ blockquote:before {
+        
+        margin-top: 15px;
+        font-size: 78px;
+    }
+    .plan-box{
+        margin-left: 0px;
+    }
+    
+}
+
+
+
